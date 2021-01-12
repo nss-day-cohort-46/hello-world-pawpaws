@@ -1,0 +1,111 @@
+
+.scotlandPageMain {
+    background-color:azure;
+}
+.scotlandHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.logo{
+    align-self: start;
+}
+h1{
+    text-align: center;
+}
+.scotPic {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+   
+    width: 100%;
+    height: 100%;
+}
+#nav {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+    margin-top: 20px;
+    flex-flow: row-wrap;
+    
+
+    text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+    color: #609;
+
+    text-decoration: none;
+	font-family: Cambria, serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #000;
+}
+
+
+
+
+.scotlandList_cities {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
+   justify-content: space-evenly;
+    
+     width: 100%;
+   height: 100%;
+}
+ .cities {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: stretch;
+     flex-direction: row;
+    justify-content: inherit;
+     justify-content: initial;
+
+      width: 100%;
+    height: 100%;
+ }
+
+ .scotlandList_landmarks{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
+   justify-content: space-evenly;
+    
+     width: 100%;
+   height: 100%;
+
+ }
+
+.scotlandList_citizens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+   
+    width: 100%;
+    height: 100%;
+    
+}
+
+.description{
+    text-align: center;
+    font-size: 25px;
+}
+.sean{
+    max-height: 300px;
+}
+
