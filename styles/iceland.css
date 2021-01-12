@@ -1,0 +1,64 @@
+body {
+    background-color: thistle;
+}
+/* HEADING STYLES */
+.headerNav{
+    display: flex;
+    background-image: url("https://i.pinimg.com/originals/3e/2c/27/3e2c27c2a5c006e70c77fde3431cf9c7.jpg");
+    background-size: auto;
+}
+.icelandHeader {
+    display: flex;
+    /* justify-content: center; */
+    /* align-self: baseline; */
+}
+.icelandHeader h1 {
+    margin: auto;
+    color: rgb(11, 100, 160);
+    font-size: 34px;
+}
+
+/* NAV STYLES */
+nav {
+    justify-content: center;
+    align-self: flex-end;
+}
+nav a {
+    color: whitesmoke;
+  }
+
+nav a:visited {
+    color: thistle;
+}
+nav a:hover {
+    color: hotpink;
+}
+
+/* MAIN BODY STYLES */
+.icelandList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+}
+.icelandList_cities {
+    display: flex;
+
+}
+.icelandList_landmarks {
+    display: flex;
+
+}
+.icelandList_citizens {
+    display: flex;
+}
+article img {
+    height: 200px;
+    width: 400px;
+    flex: 1 0;
+}
+p {
+    text-align: center;
+}
