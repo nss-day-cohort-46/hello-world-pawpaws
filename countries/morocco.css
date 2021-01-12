@@ -1,0 +1,32 @@
+body {
+    background-color: darkgoldenrod;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: white;
+}
+.headerNav {
+    ;
+}
+header {
+    background-image: url("https://www.passporthealthglobal.com/wp-content/uploads/2020/06/vaccines-advice-morocco-img-compressed.jpg");
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+a: [aria-current=page] {
+    background-color: yellow;
+}
+.moroccoNav {
+    padding: 10px;
+}
+.moroccoList {
+    background-color: rebeccapurple;
+}
+footer {
+    background-color: steelblue;
+}
