@@ -1,3 +1,5 @@
+// celeb object js file
+
 const celebritiesCollection = () => [
     {
         image: "",
