@@ -1,12 +1,8 @@
-export const Fish = (fish) => {
+export const Landmark = (landmark) => {
     return `
-        <section class="fish card">
-            <div><img  class="fish__image image--card" src="${fish.image}" /></div>
-            <div class="fish__name">${fish.name}</div>
-            <div class="fish__species">${fish.species}</div>
-            <div class="fish__length">${fish.length}</div>
-            <div class="fish__location">${fish.location}</div>
-            <div class="fish__diet">${fish.food}</div>
-        </section>
+        <section class="landmark card">
+            <div><img  class="landmark__image image--card" src="${landmark.image}" /></div>
+            <div class="landmark__name">${landmark.name}</div>
+            
     `
 }
