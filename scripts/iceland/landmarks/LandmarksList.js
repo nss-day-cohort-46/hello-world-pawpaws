@@ -1,7 +1,8 @@
+import { Landmark } from './Landmarks.js'
 import { useLandmarks } from './LandmarksDataProvider.js'
-import { Landmark } from "./Landmarks.js"
 
-export const LandmarkList = () => {
+
+export const LandmarksList = () => {
 
     const landmarkElement = document.querySelector(".icelandList")
     const landmarks = useLandmarks()

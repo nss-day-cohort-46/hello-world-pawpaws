@@ -1,8 +1,8 @@
 
-import { LandmarkList } from './landmarks/LandmarksList.js'
+import { LandmarksList } from './landmarks/LandmarksList.js'
 
 
 
 
 
-LandmarkList()
+LandmarksList()
