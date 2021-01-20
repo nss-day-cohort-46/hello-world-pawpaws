@@ -1,22 +1,22 @@
 // celeb object js file
 
-const celebritiesCollection = () => [
+const celebritiesCollection = [
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Gregor_Mendel_2.jpg/220px-Gregor_Mendel_2.jpg",
+        image: "/scripts/czech/celebrities/celebPics/220px-Gregor_Mendel_2.jpg",
         name: "Gregor Mendel"
     },
     {
-        image: "https://media.npr.org/assets/img/2013/03/08/3274654-sigmund-freud-portrait_custom-74f04f5f6641adcdb203fb3a041b3916f4c5585c-s800-c85.jpg",
+        image: "/scripts/czech/celebrities/celebPics/sigmund-freud.jpg",
         name: "Sigmund Freud"
     },
     {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Milos_Forman.jpg/220px-Milos_Forman.jpg",
+        image: "/scripts/czech/celebrities/celebPics/220px-Milos_Forman.jpg",
         name: "Miloš Forman"
-    }
+    },
 ]
 
 
 export const useCelebs = () => {
     return celebritiesCollection.slice()
 }
-
+const test = useCelebs()
