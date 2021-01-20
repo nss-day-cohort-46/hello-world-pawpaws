@@ -10,6 +10,11 @@
     font-size: 100px;
     color: whitesmoke;
 }
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
 
 nav {
     position: absolute;
@@ -38,28 +43,31 @@ nav, a {
 /* main body css */
 .czechRepublicList {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     padding: 15px;
 }
 
-.czechRepublicList__cities {
+.cityList {
     display: flex;
+    text-align: center;
 
 }
+
+
+.landmarkList {
+    display: flex;
+    text-align: center;
+}
+
+.celebList {
+    display: flex;
+    text-align: center;
+}
+
 .image--card {
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 500px;
     object-fit: scale-down;
 }
-
-.czechRepublicList__landmarks {
-    display: flex;
-
-}
-
-.czechRepublicList__citizens {
-    display: flex;
- 
