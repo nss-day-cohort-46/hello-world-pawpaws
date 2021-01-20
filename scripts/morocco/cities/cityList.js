@@ -15,7 +15,7 @@ import { City } from "./cities.js";
 
 
 export const cityList = () => {
-    const contentElement = document.querySelector("moroccoList_cities")
+    const contentElement = document.querySelector(".moroccoList_cities")
 
     const cityarray = cityData()
 
