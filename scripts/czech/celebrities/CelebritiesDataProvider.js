@@ -19,4 +19,4 @@ const celebritiesCollection = [
 export const useCelebs = () => {
     return celebritiesCollection.slice()
 }
-const test = useCelebs()
+

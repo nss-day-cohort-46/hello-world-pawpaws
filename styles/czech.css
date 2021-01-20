@@ -35,7 +35,29 @@ nav, a {
     filter: brightness(60%);
 }
 
+/* main body css */
+.czechRepublicList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 15px;
+}
 
+.czechRepublicList__cities {
+    display: flex;
+}
+.city__img {
+    height: 400;
+    width: 200;
+    
+}
 
+.czechRepublicList__landmarks {
+    display: flex;
+}
 
-
+.czechRepublicList__citizens {
+    display: flex;
+}
