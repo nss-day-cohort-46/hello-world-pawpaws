@@ -15,7 +15,7 @@ const cityCollection = [
         
     },
 ]
-
+//  creates a function that exports info about objects
     console.log()
     export const useCity = () => {
         return cityCollection.slice()

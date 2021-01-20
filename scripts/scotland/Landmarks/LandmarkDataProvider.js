@@ -17,7 +17,7 @@ const landmarkCollection = [
         
     }
     ,]
-
+// creates a function that exports info about objects
     console.log()
     export const useLandmark = () => {
         return landmarkCollection.slice()
