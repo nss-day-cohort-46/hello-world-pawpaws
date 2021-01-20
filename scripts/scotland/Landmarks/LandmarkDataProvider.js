@@ -1,12 +1,22 @@
-const fishCollection = [
+const landmarkCollection = [
     {
-        image: "https://images.pexels.com/photos/2156311/pexels-photo-2156311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-        name: "Bart",
-        species: "birdfish",
-        length: 3,
-        location: "in the water",
-        food: "crustaceans"
-    },]
+        image: "https://cdn.pixabay.com/photo/2016/08/20/15/53/scotland-1607832__340.jpg",
+        name: "Scottish Highlands",
+        
+    }
+    
+    {
+        image: "https://cdn.pixabay.com/photo/2017/11/02/16/34/iona-abbey-2911733__340.jpg",
+        name: "Iona Abbey",
+        
+    }
+
+    {
+        image: "https://cdn.pixabay.com/photo/2016/08/13/16/41/holyroodhouse-1591006__340.jpg",
+        name: "Holyrood",
+        
+    }
+    ,]
 
     console.log()
     export const useFish = () => {
@@ -18,11 +28,4 @@ const fishCollection = [
     
     
     
-    export const mostHolyFish = () => {
-        // 3, 6, 9, 12, etc... fish
-        const holyFish = []
     
-        for ( const fishObject of fishCollection) {
-         if(fishObject.length % 3 === 0) {
-            holyFish.push(fishObject)
-        }

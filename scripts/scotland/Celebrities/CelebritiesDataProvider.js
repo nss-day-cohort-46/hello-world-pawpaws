@@ -12,7 +12,7 @@ const celebrityCollection = [
     },
     {
         image: "https://i2-prod.mirror.co.uk/incoming/article22936250.ece/ALTERNATES/s615b/0_ELECTION-SNP-1.jpg",
-        name: "Sean Cinnery",
+        name: "Sean Connery",
         
     },
 ]
