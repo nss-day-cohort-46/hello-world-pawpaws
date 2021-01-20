@@ -1,14 +1,14 @@
 const dataCollection = [
     {
-        image: "",
+        image: "../../../moroccoImages/Ouzoud-Waterfalls-Morocco-10.jpg",
         name: "Ouzoud Waterfall"
     },
     {
-        image: "",
+        image: "../../../moroccoImages/327149_Viator_Shutterstock_171042.jpg",
         name: "Hassan Tower"
     },
     {
-        image: "",
+        image: "../../../moroccoImages/photo-1559586616-361e18714958.webp",
         name: "Sahara Desert"
     }
 ]
