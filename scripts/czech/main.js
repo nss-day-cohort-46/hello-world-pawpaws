@@ -5,8 +5,6 @@ import { landmarkList } from "/scripts/czech/landmarks/landmarksList.js"
 
 
 CelebritiesList()
-const test = CityList()
-const test2 = landmarkList()
+CityList()
+landmarkList()
 
-console.log(test)
-console.log(test2)
