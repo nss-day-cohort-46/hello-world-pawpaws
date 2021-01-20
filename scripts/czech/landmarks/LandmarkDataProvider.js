@@ -17,5 +17,3 @@ export const useLandmarks = () => {
     return landmarksCollection.slice()
 };
 
-const lndmrk = useLandmarks()
-console.log(lndmrk)
