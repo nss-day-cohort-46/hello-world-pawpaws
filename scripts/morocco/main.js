@@ -1,3 +1,6 @@
+import { celebList } from "./celebrities/celebList.js";
+
+celebList();
 import { landmarkList } from "./landmarks/landmarkList.js";
 
 

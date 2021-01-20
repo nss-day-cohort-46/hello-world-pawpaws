@@ -1,14 +1,18 @@
-const celebDataCollection = [
+const dataCollection = [
     {
-        image: "",
-        name: ""
+        image: "../../../moroccoImages/french-montana.jpg",
+        name: "French Montana"
     },
     {
-        image: "",
-        name: ""
+        image: "../../../moroccoImages/Robert_Purvis,_Abolitionist.jpg",
+        name: "Robert Purvis"
     },
     {
-        image: "",
-        name: ""
+        image: "../../../moroccoImages/David-Guetta-Live.jpg",
+        name: "David Guetta"
     }
 ]
+
+export const celebData = () => {
+    return dataCollection.slice()
+}
