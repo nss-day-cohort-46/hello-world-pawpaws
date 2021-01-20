@@ -1,14 +1,20 @@
-const citiesCollection = () => [
+const citiesCollection = [
     {
-        image: "",
-        name: ""
+        image: "/scripts/czech/cities/cityPics/Prague.webp",
+        name: "Prague"
     },
     {
-        image: "",
-        name: ""
+        image: "/scripts/czech/cities/cityPics/Brno.jpeg",
+        name: "Brno"
     },
     {
-        image: "",
-        name: ""
+        image: "/scripts/czech/cities/cityPics/ostrava.jpg",
+        name: "Ostrava"
     }
-]
+];
+
+export const useCities = () => {
+    return citiesCollection.slice()
+};
+
+
