@@ -1,4 +1,4 @@
-const citiesCollection = () => [
+const citiesCollection = [
     {
         image: "/scripts/czech/cities/cityPics/Prague.webp",
         name: "Prague"
@@ -14,7 +14,7 @@ const citiesCollection = () => [
 ];
 
 export const useCities = () => {
-    return citiesCollection.splice()
+    return citiesCollection.slice()
 };
 
 
