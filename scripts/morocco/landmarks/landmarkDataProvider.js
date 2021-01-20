@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const dataCollection = [
     {
         image: "../../../moroccoImages/Ouzoud-Waterfalls-Morocco-10.jpg",
@@ -16,3 +17,19 @@ const dataCollection = [
 export const landmarkData = () => {
     return dataCollection.slice()
 }
+=======
+const landmarkDataCollection = [
+    {
+        image: "",
+        name: ""
+    },
+    {
+        image: "",
+        name: ""
+    },
+    {
+        image: "",
+        name: ""
+    }
+]
+>>>>>>> main
