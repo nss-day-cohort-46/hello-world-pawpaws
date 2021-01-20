@@ -1,3 +1,11 @@
+
+import { LandmarksList } from './landmarks/LandmarksList.js'
+
+
+
+
+
+LandmarksList()
 import { CitiesList } from './cities/CitiesList.js'
 
 
