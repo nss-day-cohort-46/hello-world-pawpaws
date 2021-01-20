@@ -47,17 +47,19 @@ nav, a {
 
 .czechRepublicList__cities {
     display: flex;
+
 }
-.city__img {
-    height: 400;
-    width: 200;
-    
+.image--card {
+    height: 200px;
+    width: 400px;
+    object-fit: scale-down;
 }
 
 .czechRepublicList__landmarks {
     display: flex;
+
 }
 
 .czechRepublicList__citizens {
     display: flex;
-}
+ 
