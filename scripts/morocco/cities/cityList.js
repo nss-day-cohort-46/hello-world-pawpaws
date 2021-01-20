@@ -2,15 +2,6 @@ import { cityData } from "./cityDataProvider.js";
 import { City } from "./cities.js";
 
 
-// const allthecities = cityData()
-// //const alltheothercities = City()
-
-// for (const place of allthecities) {
-//     console.log(place)
-// }
-// // for (const place of alltheothercities) {
-// //     console.log(place)
-// // }
 
 
 
