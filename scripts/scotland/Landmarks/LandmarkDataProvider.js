@@ -19,8 +19,8 @@ const landmarkCollection = [
     ,]
 
     console.log()
-    export const useFish = () => {
-        return fishCollection.slice()
+    export const useLandmark = () => {
+        return landmarkCollection.slice()
     }
     
     

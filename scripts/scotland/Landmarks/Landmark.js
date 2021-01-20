@@ -4,5 +4,6 @@ export const Landmark = (landmark) => {
             <div><img  class="landmark__image image--card" src="${landmark.image}" /></div>
             <div class="landmark__name">${landmark.name}</div>
             
+        </section>
     `
 }
