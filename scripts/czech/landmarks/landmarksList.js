@@ -2,7 +2,7 @@
 // home in the czech html to house the celebs
 
 import { useLandmarks } from "/scripts/czech/landmarks/LandmarkDataProvider.js"
-import { Landmarks } from "/scripts/czech/Landmarks/landmarks.js"
+import { Landmarks } from "/scripts/czech/landmarks/landmarks.js"
 
 export const landmarkList = () => {
     // This section of code will get the reference to the <article class="element"> 

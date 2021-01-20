@@ -61,11 +61,12 @@ body {
 .cityList {
     display: flex;
     text-align: center;
+    justify-content: space-between;
     background-color: rgba(0,0,0, 0.6);
     color: white;
     font-weight: bold;
     font-size: 20pt;
-    border: darkslategray;
+    
     margin: 0.75em;
 }
 
@@ -73,22 +74,24 @@ body {
 .landmarkList {
     display: flex;
     text-align: center;
+    justify-content: space-between;
     background-color: rgba(0,0,0, 0.6);
     color: white;
     font-weight: bold;
     font-size: 20pt;
-    border: darkslategray;
+    
     margin: 0.75em;
 }
 
 .celebList {
     display: flex;
     text-align: center;
+    justify-content: space-between;
     background-color: rgba(0,0,0, 0.6);
     color: white;
     font-weight: bold;
     font-size: 20pt;
-    border: darkslategray;
+    
     margin: 0.75em;
 }
 
