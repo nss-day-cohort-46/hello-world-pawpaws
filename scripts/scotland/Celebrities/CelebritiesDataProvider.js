@@ -16,7 +16,7 @@ const celebrityCollection = [
         
     },
 ]
-
+// / creates a function that exports info about objects
     console.log()
     export const useCelebrity = () => {
         return celebrityCollection.slice()
