@@ -1,12 +1,12 @@
 const cityCollection = [
     {
-        image: "",
-        name: "",
+        image: "https://cdn.pixabay.com/photo/2017/06/20/14/54/glasgow-2423346__340.jpg",
+        name: "Glasgow",
         
     },
     {
-        image: "",
-        name: "",
+        image: "https://cdn.pixabay.com/photo/2015/09/26/13/45/edinburgh-castle-959082__340.jpg",
+        name: "Edinburg",
         
     },
     {
