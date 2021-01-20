@@ -13,7 +13,7 @@ export const CelebrityList = () => {
     }
     // creates a container class for the representation
     contentElement.innerHTML += `
-     <aritcle class="container">
+     <aritcle class="celebs_container">
      ${celebrityHTMLRepresentation}
      <article>`
 }

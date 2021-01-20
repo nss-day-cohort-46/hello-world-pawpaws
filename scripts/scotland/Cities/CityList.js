@@ -13,7 +13,7 @@ export const CityList = () => {
     }
     // creates a container class for the representation
     contentElement.innerHTML += `
-     <aritcle class="container">
+     <aritcle class="city_container">
      ${cityHTMLRepresentation}
      <article>`
 }

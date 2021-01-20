@@ -14,7 +14,7 @@ export const LandmarkList = () => {
     }
     // creates a container class for the representation
     contentElement.innerHTML += `
-     <aritcle class="container">
+     <aritcle class="landmark_container">
      ${landmarkHTMLRepresentation}
      <article>`
 }
